@@ -1,0 +1,1 @@
+Car [id=1, make=Tesla, model=Model 3, yearOfManufacture=2019, color=Black, price=45000.0, registrationNumber=TES123]

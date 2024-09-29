@@ -1,0 +1,2 @@
+Car [id=2, make=BMW, model=i3, yearOfManufacture=2020, color=White, price=38000.0, registrationNumber=BMW456]
+Car [id=4, make=Mercedes, model=EQC, yearOfManufacture=2020, color=Red, price=67000.0, registrationNumber=MER321]
