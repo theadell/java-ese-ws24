@@ -9,11 +9,14 @@ This repository contains the solutions to the mandatory Java assignments as part
 - **Programming Language**: Java
 - **Java Development Kit (JDK)**: Version 11 or higher
 
-### [Assignment 1](assignment-1)
+### [Assignment 1](assignment-1/src/)
 **Description**: Control flow statements and basic Java constructs, including working with loops and conditions to identify prime numbers and implement basic mathematical calculations.
 
-### [Assignment 2](assignment-2/Car.java)
+### [Assignment 2](assignment-2/src/Car.java)
 **Description**: A Java program defining a `Car` class with attributes like `id`, `make`, `model`, `year of manufacture`, `color`, `price`, and `registration number`. The program creates an array of `Car` objects and saves lists to files based on brand, model (older than `n` years), and year/price.
+
+### [Assignment 3](assignment-3/src/vehicles/)
+**Description**: A Java program that modeled different types of vehicles (ICEV, BEV, HybridV) and engines (CombustionEngine, ElectricEngine, HybridEngine) using inheritance and composition
 
 ## Running the Assignments:
 ```bash
