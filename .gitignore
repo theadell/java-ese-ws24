@@ -1,0 +1,49 @@
+# Ignore the bin/ directory where compiled .class files are placed
+/bin
+
+# Ignore the build/ directory in case it's used by IDE or build tools
+/build
+
+# Ignore .classpath, .project, .settings for Eclipse
+.classpath
+.project
+.settings/
+
+# Ignore the .vscode folder to avoid sharing local VSCode settings
+.vscode/
+
+# Ignore IntelliJ IDEA files
+/.idea
+*.iml
+*.iws
+
+# Ignore compiled class files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore generated files from native builds
+*.o
+*.obj
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore JAR files if any are built or stored
+*.jar
+
+# Ignore temporary files and backup files
+*.swp
+*.swo
+*~
+
+# Ignore build tool generated files (if you use Maven/Gradle in the future)
+/target/
+/out/
+.gradle/
+/build/
