@@ -1,0 +1,45 @@
+@startuml
+
+class Vehicle {
+  +Engine engine
+  +Manufacture manufacture
+  +abstract ShowCharacteristics()
+}
+
+class Engine {
+  +String engineType
+}
+
+class CombustionEngine {
+  +CombustionEngine()
+}
+
+class ElectricEngine {
+  +ElectricEngine()
+}
+
+class HybridEngine {
+  +HybridEngine()
+}
+
+class Manufacture {
+  +String name
+  +String country
+  +getName()
+  +setName()
+  +getCountry()
+  +setCountry()
+}
+
+class ICEV extends Vehicle
+class BEV extends Vehicle
+class HybridV extends Vehicle
+
+Engine <|-- CombustionEngine
+Engine <|-- ElectricEngine
+Engine <|-- HybridEngine
+Vehicle <|-- ICEV
+Vehicle <|-- BEV
+Vehicle <|-- HybridV
+
+@enduml
